@@ -1,0 +1,11 @@
+gamemodes:
+  survival:
+    html: "html/survival.html"
+    spawn: "spawn/survival_spawn.json"
+    teleport: "teleport/survival_teleport.json"
+    shop: "shop/survival_shop.json"
+  hardcored:
+    html: "html/hardcored.html"
+    spawn: "spawn/hardcored_spawn.json"
+    teleport: "teleport/hardcored_teleport.json"
+    shop: "shop/hardcored_shop.json"
