@@ -1,0 +1,11 @@
+# Prison Gamemode Spawn Configuration
+
+# This file contains the configuration for the spawn area in the Prison gamemode.
+
+spawn:
+  location:
+    x: 0
+    y: 64
+    z: 0
+  world: world
+  message: Welcome to the Prison!
