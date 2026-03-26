@@ -1,0 +1,14 @@
+server:
+  address: "wss://Kasandry.Island.net"
+  supported_versions:
+    - "1.8.8"
+    - "1.12.2"
+  gamemodes:
+    - "survival"
+    - "creative"
+    - "adventure"
+    - "spectator"
+  settings:
+    max_players: 100
+    difficulty: "normal"
+    online_mode: false
