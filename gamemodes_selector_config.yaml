@@ -1,0 +1,28 @@
+# Gamemodes Selector Configuration
+
+# Configuration for the gamemodes selector
+
+# List of gamemodes with skins
+
+- gamemode: Survival  
+  skin: skin_s__survival  
+  teleport: /gamemode survival  
+- gamemode: Creative  
+  skin: skin_s__creative  
+  teleport: /gamemode creative  
+- gamemode: Adventure  
+  skin: skin_s__adventure  
+  teleport: /gamemode adventure  
+- gamemode: Spectator  
+  skin: skin_s__spectator  
+  teleport: /gamemode spectator  
+
+# UI Configuration
+
+# Display settings
+show_gamemode_names: true
+
+# Interaction settings
+click_to_teleport: true
+
+# End of Configuration
