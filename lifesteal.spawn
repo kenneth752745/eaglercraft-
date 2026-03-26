@@ -1,0 +1,15 @@
+# Lifesteal Gamemode Spawn Configuration
+
+# This file is used to configure the spawn settings for the Lifesteal gamemode.
+
+spawn:
+  enabled: true
+  location:
+    x: 100
+    y: 64
+    z: 100
+  world: world
+  respawn:
+    enabled: true
+    delay: 5
+    message: "You have respawned!"
