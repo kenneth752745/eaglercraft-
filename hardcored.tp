@@ -1,0 +1,22 @@
+{
+  "teleportLocations": [
+    {
+      "name": "Spawn",
+      "x": 0,
+      "y": 64,
+      "z": 0
+    },
+    {
+      "name": "Village",
+      "x": 100,
+      "y": 64,
+      "z": 200
+    },
+    {
+      "name": "Mineshaft",
+      "x": -300,
+      "y": 30,
+      "z": 400
+    }
+  ]
+}
