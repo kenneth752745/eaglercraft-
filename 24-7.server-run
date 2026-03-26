@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# A script to keep the server running continuously with auto-restart functionality
+
+while true; do
+    # Start the server
+    java -Xmx1024M -Xms1024M -jar server.jar nogui
+    
+    # Check the exit status of the server. If it exits, wait and restart.
+    if [ $? -eq 0 ]; then
+        echo "Server stopped. Restarting in 5 seconds..."
+        sleep 5
+    else
+        echo "Server crashed. Restarting in 5 seconds..."
+        sleep 5
+    fi
+done
