@@ -1,0 +1,10 @@
+# Prison GameMode Teleport Locations
+
+# List of teleport locations in the Prison game mode
+
+# Example format:
+# location_name: x,y,z
+
+spawn: 100,64,100
+mines: -100,64,-100
+shop: 200,64,200
