@@ -1,0 +1,14 @@
+# Creative Gamemode Spawn Configuration
+
+This file defines the spawn settings for Creative gamemode.
+
+## Configuration Parameters
+- `spawnPoint`: Coordinates of the spawn point.
+- `spawnItems`: List of items to spawn at the beginning.
+
+## Sample Settings
+spawnPoint: {x: 100, y: 64, z: 100}
+spawnItems:
+  - Diamond
+  - Gold Ingots
+  - Potion of Speed
