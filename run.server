@@ -1,0 +1,51 @@
+#!/bin/bash
+
+# Eaglercraft Server Management Script
+
+# Start the server
+start_server() {
+    echo "Starting the Eaglercraft server..."
+    # Command to start server, replace with the actual command
+    java -Xmx1024M -Xms1024M -jar server.jar nogui
+}
+
+# Stop the server
+stop_server() {
+    echo "Stopping the Eaglercraft server..."
+    # Command to stop server, adjust as necessary
+    screen -S eaglercraft -p 0 -X stuff "stop\n"
+}
+
+# Check the status of the server
+status_server() {
+    echo "Checking the status of the Eaglercraft server..."
+    # Replace with actual command
+    screen -list | grep "eaglercraft"
+}
+
+# Display usage
+usage() {
+    echo "Usage: $0 {start|stop|status}"
+    exit 1
+}
+
+# Ensure at least one argument is passed
+if [ $# -eq 0 ]; then
+    usage
+fi
+
+# Command line argument handling
+case $1 in
+    start)
+        start_server
+        ;; 
+    stop)
+        stop_server
+        ;; 
+    status)
+        status_server
+        ;; 
+    *)
+        usage
+        ;; 
+esac
