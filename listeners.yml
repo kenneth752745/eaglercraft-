@@ -1,0 +1,9 @@
+# Configuración del Listener para EaglercraftX
+# Este archivo permite que los navegadores se conecten al proxy
+
+listeners:
+  - address: "0.0.0.0"
+    port: 8081
+    forward_ip: true
+    # Si usas un dominio con SSL (HTTPS), cambia a true:
+    use_ssl: false 
