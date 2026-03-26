@@ -1,0 +1,15 @@
+# Lifesteal Teleport Locations
+
+# Description: This file contains the teleport locations for the Lifesteal game mode.
+
+# Sample teleport locations
+- Location: Spawn
+  Coordinates: x: 100, y: 65, z: 150
+
+- Location: Arena
+  Coordinates: x: 250, y: 70, z: 300
+
+- Location: Shop
+  Coordinates: x: 500, y: 64, z: 450
+
+# Add more locations as needed...
