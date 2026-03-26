@@ -1,0 +1,2 @@
+{\n  \"spawnPoints\": [\n    {\n      \"name\": \"Spawn1\",
+      \"coordinates\": {\n        \"x\": 100,\n        \"y\": 64,\n        \"z\": 100\n      },\n      \"world\": \"world\"\n    },\n    {\n      \"name\": \"Spawn2\",\n      \"coordinates\": {\n        \"x\": 200,\n        \"y\": 64,\n        \"z\": 200\n      },\n      \"world\": \"world\"\n    }\n  ]\n}
